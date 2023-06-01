@@ -1,0 +1,16 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "My all social media web applicatin",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
