@@ -5,9 +5,13 @@ const app = express();
 
 //use express router
 app.use('/' , require('./routes'));
-app.get('/profile' , function(req,res){
-    return res.end('<h1>Hello</h1>')
-})
+// app.get('/profile' , function(req,res){
+//     return res.end('<h1>Hello</h1>')
+// })
+
+//setup the view engine
+app.set('view engine' , 'ejs');
+app.set('views' , './views');
 
 
 
